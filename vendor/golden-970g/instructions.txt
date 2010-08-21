@@ -1,0 +1,72 @@
+
+-==================================-
+
+Grid System Generator
+
+http://www.gridsystemgenerator.com
+
+-==================================-
+
+Version 1.00
+Instructions updated on 06-4-2009
+
+Based on the golden grid system.
+http://code.google.com/p/the-golden-grid/
+
+
+
+| Instructions
++==================================-
+
+There are three main folders inside this zip file:
+- compressed
+- uncompressed
+- templates
+
+
+The folders 'compressed' & 'uncompressed' contain the generated framework 
+(css, xhtml and background image file) .As the names imply the compressed
+folder contains the css files in a compacted format which reduces the overall
+file size.
+
+- (un)compressed
+	| XXX_XX_XX.html
+	|- css
+		| XXXX_XX_XX.css
+		| reset.css (optional)
+		| text.css (optional)
+	|- images
+		| XXXX_XX_XX.png
+- templates
+	| XXXX_XX_XX.png
+	
+You can choose to start out with the framework by using the 
+complete contents of the 'compressed' or 'uncompressed' folder or copy the
+css file (XXXX_XX_XX.css) to your website and include it
+in the <head> of your HTML page.
+
+
+Follow these instruction when using only the css file:
+(Note: you may also use the reset.css and text.css files, or opt to leave them out.)
+
+Here is an example of the XHTML code necessary to incorporate the CSS files:
+
+<head>
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/XXXX_XX_XX.css" />
+</head>
+
+
+The folder 'templates' contains a png file that you can use in Fireworks, 
+Illustrator, OmniGraffle, Photoshop, Visio (etc.) to aid in prototyping and design.
+
+
++==================================-
+
+I hope you find the generated framework useful and that it will help to speed up
+your web development cycle!
+
++==================================-
+Grid System Generator -> http://www.gridsystemgenerator.com
++==================================-

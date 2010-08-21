@@ -1,0 +1,100 @@
+/*
+970px grid system ~ Core CSS.
+12 columns ~ margin: 10px
+
+Based on the golden grid system - http://code.google.com/p/the-golden-grid/
+by Vladimir Carrer
+
+Created by the Grid System Generator - v1.00
+Learn more ~ http://www.gridsystemgenerator.com/
+*/
+
+/* =Containers
+--------------------------------------------------------------------------------*/
+.main
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 970px;
+}
+
+/* =Grid >> Global
+--------------------------------------------------------------------------------*/
+.g80, .g160, .g240, .g320, .g400, .g480, .g560, .g640, .g720, .g800, .g880, .g960,
+.s1,  .s2,   .s3,   .s4,   .s5,   .s6,   .s7,   .s8,   .s9,   .s10,  .s11,  .s12
+{
+	display: inline;
+	float: left;
+	margin-left: 10px;
+}
+
+/* =Grid >> 12 Columns
+--------------------------------------------------------------------------------*/
+.s1, .g80{width:70px;}
+.s2, .g160{width:150px;}
+.s3, .g240{width:230px;}
+.s4, .g320{width:310px;}
+.s5, .g400{width:390px;}
+.s6, .g480{width:470px;}
+.s7, .g560{width:550px;}
+.s8, .g640{width:630px;}
+.s9, .g720{width:710px;}
+.s10,.g800{width:790px;}
+.s11,.g880{width:870px;}
+.s12,.g960{width:950px;}
+
+
+/* =Grid >> 12 Columns - no left margin
+--------------------------------------------------------------------------------*/
+.ml80{margin-left:90px;}
+.ml160{margin-left:170px;}
+.ml240{margin-left:250px;}
+.ml320{margin-left:330px;}
+.ml400{margin-left:410px;}
+.ml480{margin-left:490px;}
+.ml560{margin-left:570px;}
+.ml640{margin-left:650px;}
+.ml720{margin-left:730px;}
+.ml800{margin-left:810px;}
+.ml880{margin-left:890px;}
+.ml960{margin-left:970px;}
+
+
+.inside{margin-left:0;}
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+	clear: both;
+	content:' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
