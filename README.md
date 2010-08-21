@@ -1,17 +1,21 @@
-Xview: The Kohana 3.x eXtended View
-===============================
-Xview serves output format extra logical approach. Designed to be a wrapper to the current Core View, it is a View with driver features. Helps to produce completely clean DRY controller.
+Xview
+=====
+The Kohana 3 eXtended View
+----------------------------
+Xview serves as output format in extra logical object oriented approach. Designed to be a wrapper to the current Core View, it is a View with driver features. Helps to produce completely clean DRY controller.
 
-Feature:
-
+Feature
+-------
   - Render Xview object with format specified
      - Fullpage HTML (normal) or as block widget (for Ajax calls)
      - Partial region as HTML table, div containers or unordered list
      - as e-mail 
      - PDF (with DOMPDF support)
   - Helper for producing dynamic grid for BlueTrip CSS grid
+  - Sevrve correct HTTP header when necessary
 
-Usage:
+Example Usage
+-------------
 
     Controller_Item extends Controller {
         public function view($id){
@@ -44,9 +48,10 @@ Usage:
 
 Note: Switching between rendering full HTML page or partial region without  *Controller extends Template*
 
-Installation:
+Installation
+------------
 
-    cd /to/your/kohana/folder/
+    cd ../to-your-kohana/folder/
     git submodule add https://towfx@github.com/towfx/Xview.git modules/xview
     git submodule init
 
@@ -56,4 +61,16 @@ Installation:
         'xview'      => MODPATH.'xview',
 		// ...
 	));
+	
+Dependency
+----------
+    Kohana 3 Asset Helper: http://github.com/jonathangeiger/kohana-asset
+	
+API Definition
+--------------
+
+![alt text][1]
+
+
+  [1]: http://github.com/towfx/Xview/raw/master/class_xview__inherit__graph.png	
  
