@@ -4,6 +4,10 @@ The Kohana 3 eXtended View
 ----------------------------
 Xview serves as output format in extra logical object oriented approach. Designed to be a wrapper to the current Core View, it is a View with driver features. Helps to produce completely clean DRY controller.
 
+Current Version
+---------------
+Beta 0.1 (proof of concept release)
+
 Feature
 -------
   - Render Xview object with format specified
