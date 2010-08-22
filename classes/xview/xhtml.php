@@ -2,7 +2,7 @@
 /**
  * Produce XHTML page object
  */
-class Xview_XHTML extends XView
+class Xview_XHTML extends Xview
 {
     public $template='xhtml';
     public $meta = array();
